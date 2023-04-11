@@ -1,0 +1,43 @@
+#upper {
+    display: flex;
+    background-color: blueviolet;
+    height: calc(100vh - 100px);
+}
+
+
+
+footer {
+    background-color: orange;
+    height: 100px;
+}
+
+
+
+
+#side {
+    /* display: flex; */
+    background-color: greenyellow;
+    width: 200px;
+    height: 100%;
+}
+
+
+main {
+    background-color: rgb(83, 143, 254);
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+
+
+
+.bing {
+    background-color: crimson;
+    height: 100px;
+}
+
+.overflow {
+    padding: 30px;
+    overflow: auto;
+    height: calc(100vh - 200px);
+}
