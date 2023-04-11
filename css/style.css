@@ -15,7 +15,9 @@ footer {
 
 
 #side {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
     background-color: #000000;
     width: 200px;
     height: 100%;
@@ -77,7 +79,9 @@ li > h4 {
 }
 
 #install {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+
+    
     
 }
 
