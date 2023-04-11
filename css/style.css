@@ -102,15 +102,8 @@ li > h4 {
 }
 
 @media screen and (max-width: 480px) {
-    h4 {
-        display: none;
-    }
-
-    .playlist-name {
-        display: none;
-    }
-
-    li > span {
+  
+     li > span {
         display: none;
     }
 
@@ -129,6 +122,10 @@ li > h4 {
 
     main {
         width: calc(100% - 60px);
+    }
+
+    #playlist-overflow {
+        display: none;
     }
 }  
 
@@ -158,4 +155,50 @@ li > h4 {
     padding: 30px;
     overflow: auto;
     height: calc(100vh - 200px);
+}
+
+
+.space {
+    gap: 10px;
+
+}
+
+
+.col-lg-2 > img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug  */
+
+.row {
+    background-color: lime;
+    /* height: 100px;
+    width: 300px; */
+    
+}
+
+.col-lg-2 {
+    background-color: rgb(247, 0, 255);
+    border: 2px rebeccapurple solid;
+    /* height: 50px;
+    width: 50px; */
 }
