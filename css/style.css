@@ -142,10 +142,12 @@ li > h4 {
 /* stile contenuto principale */
 
 #upgrade {
-    background-color: #080b12;
+    /* background-color: rgba(8, 11, 18, 0.5); */
+    background-color: rgba(8, 11, 18, 0.5);
+    /* background-color: #080b12; */
     height: 100px;
     text-align: end;
-    opacity: 0.8;
+    /* opacity: 0.5; */
   
 }
 
@@ -176,8 +178,16 @@ li > h4 {
     max-width: 100%;
 }
 
+.overflow > span, .col-lg-2 > h5 {
+    color: #a3a3a3;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
 .overflow > h2 {
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .circle {
@@ -194,7 +204,6 @@ li > h4 {
 .row {
     margin: 10px -10px;
 }
-
 
 
 
