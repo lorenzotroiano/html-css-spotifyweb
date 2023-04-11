@@ -176,7 +176,9 @@ li > h4 {
     max-width: 100%;
 }
 
-
+.overflow > h2 {
+    margin-top: 40px;
+}
 
 .circle {
     border-radius: 50%;
@@ -185,9 +187,13 @@ li > h4 {
 
 
 
+.col-lg-2 {
+    padding: 0 10px;
+}
 
-
-
+.row {
+    margin: 10px -10px;
+}
 
 
 
@@ -204,6 +210,8 @@ li > h4 {
     /* background-color: lime; */
     /* height: 100px;
     width: 300px; */
+
+    /* padding: 10px; */
     
 }
 
