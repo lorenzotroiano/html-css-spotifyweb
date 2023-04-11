@@ -27,11 +27,19 @@ footer {
 
 
 main {
-    background-color: rgb(83, 143, 254);
+    background-color: #141922;
     width: calc(100% - 200px);
     height: 100%;
+
+
+    color: white;
 }
 
+
+a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
 
 
 
@@ -170,7 +178,10 @@ li > h4 {
 
 
 
-
+.circle {
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 
@@ -190,15 +201,15 @@ li > h4 {
 /* debug  */
 
 .row {
-    background-color: lime;
+    /* background-color: lime; */
     /* height: 100px;
     width: 300px; */
     
 }
 
 .col-lg-2 {
-    background-color: rgb(247, 0, 255);
-    border: 2px rebeccapurple solid;
+    /* background-color: rgb(247, 0, 255);
+    border: 2px rebeccapurple solid; */
     /* height: 50px;
     width: 50px; */
     text-align: center;
