@@ -10,7 +10,6 @@ footer {
     background-color: #282828;
     height: 100px;
     padding: 15px;
-
     width: 100%;
     position: fixed;
 }
@@ -34,8 +33,6 @@ main {
     background-color: #141922;
     width: calc(100% - 200px);
     height: 100%;
-
-
     color: white;
 }
 
@@ -66,9 +63,6 @@ li > img {
 li {
     list-style: none;
     color: #a3a3a3;
-    /* line-height: 15px; */
-    /* margin-left: 20px; */
-    /* vertical-align: middle; */
 }
 
 
