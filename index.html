@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/style.css">
@@ -71,16 +72,20 @@
 
 
 
+        <!-- contenuto principale -->
         <main>
+
+            <!-- upgrade -->
             <section id="upgrade">
                 <button>Effettua l'upgrade</button>
             </section>
 
 
 
+            <!-- contenuto centrale -->
             <section class="overflow">
               
-               
+               <!-- menu superiore nel contenuto principale -->
                 <div class="row center space">
                     <div class="col-lg-1 col-md-3 col-sm-3 col-xs-5">
                         <a href="#">In evidenza</a>
@@ -102,6 +107,7 @@
                     </div>
                 </div>
 
+                <!-- le varie playlist -->
                 <h2>Recently Played</h2>
 
                 <div class="row">
@@ -201,8 +207,60 @@
 
 
 
+    <!-- barra play -->
+    <footer>
 
-    <footer></footer>
+       <div class="flex-footer">
+            <div class="flex-play">
+                <div>
+                    <img id="sinister" src="img/sinister.jpeg" alt="sinister">
+                </div>
+
+                <div>
+                    <h5 class="color">Sinister</h5>
+                    <span class="color-gray">Ciao</span>
+                </div> 
+                <div id="icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="color center-icon">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step icon-margin"></i>
+                    <i class="fa-regular fa-circle-play icon-margin"></i>
+                    <i class="fa-solid fa-forward-step icon-margin"></i>
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </div>
+
+                <div class="flex-play margin">
+                    <span class="color"> 00:13 </span>
+                    <hr class="volume">
+                    <hr class="volume-scuro">
+                    <span class="color"> 04:13</span>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="flex-play">
+                <i class="fa-solid fa-list color"></i>
+                <i class="fa-solid fa-desktop icon-margin color"></i>
+                <i class="fa-solid fa-volume-high color"></i>
+                <hr class="volume2"> 
+                <hr class="volume-scuro2">
+                
+            </div>
+
+       </div>
+       
+
+    </footer>
     
 </body>
 </html>
