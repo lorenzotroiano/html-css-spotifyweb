@@ -107,6 +107,12 @@ li > h4 {
     margin-bottom: 5px;
 }
 
+
+li:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   
      li > span {
@@ -149,7 +155,14 @@ li > h4 {
   
 }
 
+#upgrade > button:hover {
+    color: white;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
 #upgrade > button {
+    width: 150px;
     margin: 30px 5px;
     padding: 10px;
     border: 1px solid white;
@@ -168,7 +181,14 @@ li > h4 {
 
 .space {
     gap: 10px;
+}
 
+a:hover {
+    color: white;
+}
+
+.album > img {
+    max-width: 100%;
 }
 
 
@@ -228,6 +248,10 @@ li > h4 {
     align-items: center;
 }
 
+.hover-play:hover {
+    color: white;
+}
+
 .fa-heart, .fa-folder {
     margin-left: 10px;
 }
@@ -259,6 +283,14 @@ li > h4 {
     text-align: center;
 }
 
+.fa-circle-play {
+    font-size: 24px;
+}
+
+.fa-circle-play:hover {
+    transform: scale(1.1);
+}
+
 .volume {
     background-color: #c1c1c1;
     border: none;
@@ -267,6 +299,10 @@ li > h4 {
     height: 4px;
    
     width: 100px;
+}
+
+.volume:hover {
+    background-color: greenyellow;
 }
 
 .volume-scuro {
@@ -287,6 +323,10 @@ li > h4 {
     height: 4px;
    
     width: 20px;
+}
+
+.volume2:hover {
+    background-color: greenyellow;
 }
 
 .volume-scuro2 {
