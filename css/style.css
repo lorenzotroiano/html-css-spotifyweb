@@ -187,8 +187,30 @@ a:hover {
     color: white;
 }
 
+.album {
+    position: relative;
+}
+
 .album > img {
     max-width: 100%;
+}
+
+.album > .fa-circle-play {
+    display: none;
+}
+
+.album:hover > .fa-circle-play {
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 78px;
+    transform: translate(-75px, -75px);
+    transform: scale(1.9);
+}
+
+.album:hover {
+    /* opacity: 0.8; */
+    filter: grayscale(40%);
 }
 
 
