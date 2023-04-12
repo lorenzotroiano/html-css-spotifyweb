@@ -36,12 +36,10 @@ main {
     color: white;
 }
 
-
 a {
     color: #a3a3a3;
     text-decoration: none;
 }
-
 
 
 /* stile nav */
@@ -66,7 +64,6 @@ li {
 }
 
 
-
 li > h4 {
     margin: 15px 0;
     color: white;
@@ -80,22 +77,18 @@ li > h4 {
 }
 
 #playlist-overflow {
-
     overflow: auto;
 }
 
 .playlist-name {
     font-size: 12px;
     line-height: 30px;
-
-   
 }
 
 
 #profile {
     width: 25px;
     height: 25px;
-    
     background-color: #a3a3a3;
     border-radius: 50%;
     object-fit: cover;
@@ -141,18 +134,12 @@ li:hover {
     }
 }  
 
-
-
 /* stile contenuto principale */
 
 #upgrade {
-    /* background-color: rgba(8, 11, 18, 0.5); */
     background-color: rgba(8, 11, 18, 0.5);
-    /* background-color: #080b12; */
     height: 100px;
     text-align: end;
-    /* opacity: 0.5; */
-  
 }
 
 #upgrade > button:hover {
@@ -222,11 +209,6 @@ a:hover {
     /* transform: scale(1.9); */
 }
 
-/* .album:hover {
-    /* opacity: 0.8; */
-    /* filter: grayscale(40%);
-} */
-
 
 .col-lg-2 > img {
     max-width: 100%;
@@ -258,11 +240,6 @@ a:hover {
 .row {
     margin: 10px -10px;
 }
-
-
-
-
-
 
 
 /* stile footer */
@@ -397,20 +374,7 @@ a:hover {
 }
 
 
-
-
-
-
 /* debug  */
-
-.row {
-    /* background-color: lime; */
-    /* height: 100px;
-    width: 300px; */
-
-    /* padding: 10px; */
-    
-}
 
 .col-lg-2 {
     /* background-color: rgb(247, 0, 255);
