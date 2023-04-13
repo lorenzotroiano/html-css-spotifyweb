@@ -4,8 +4,6 @@
     height: calc(100vh - 100px);
 }
 
-
-
 footer {
     background-color: #282828;
     height: 100px;
@@ -13,8 +11,6 @@ footer {
     width: 100%;
     position: fixed;
 }
-
-
 
 
 #side {
@@ -58,14 +54,10 @@ li > img {
     vertical-align: middle;
 }
 
-/* li > span {
-    vertical-align: text-top;
-} */
 
 li {
     list-style: none;
     color: #a3a3a3;
-    /* vertical-align: middle; */
 }
 
 #green-bord {
@@ -163,8 +155,7 @@ li:hover {
     border: 1px solid white;
     border-radius: 20px;
     background-color: #080b12;
-    color: white;
-    
+    color: white;   
 }
 
 .bord-bottom {
@@ -180,8 +171,7 @@ li:hover {
     bottom  : 15px;
     height  : 1px;
     width   : 50%;  /* or 100px */
-    border-bottom:4px solid greenyellow;
-    
+    border-bottom:4px solid greenyellow;   
 }
 
 .overflow {
@@ -201,8 +191,6 @@ a:hover {
 
 .album {
     position: relative;
-/* 
-    transition: all 2s ease; */
 }
 
 
@@ -213,15 +201,12 @@ a:hover {
 
 .album > img {
     max-width: 100%;
-
     transition: all 1s ease;
 }
 
 
-
 .album > .fa-circle-play {
-    display: none;
-    
+    display: none;  
 }
 
 .album:hover > .fa-circle-play {
@@ -231,7 +216,6 @@ a:hover {
     left: 50%;
     font-size: 60px;
     transform: translate(-50%, -50%);
-    /* transform: scale(1.9); */
 }
 
 
@@ -256,8 +240,6 @@ a:hover {
     object-fit: cover;
 }
 
-
-
 .col-lg-2 {
     padding: 0 10px;
 }
@@ -268,7 +250,6 @@ a:hover {
 
 
 /* stile footer */
-
 
 #sinister {
     width: 70px;
@@ -304,7 +285,6 @@ a:hover {
 }
 
 /* .volume {
-    
     display: inline;
     width: 100px;
     height: 3px;
@@ -331,47 +311,38 @@ a:hover {
 
 .volume {
     background-color: #c1c1c1;
-    border: none;
-   
+    border: none;  
     margin-left: 5px;
-    height: 4px;
-   
+    height: 4px;  
     width: 100px;
 }
 
-/* .cerchio {
+.cerchio {
     height: 10px;
     width: 10px;
     background-color: #c1c1c1;
     border-radius: 50%;
-
-    display: none;
-} */
-
-
+    /* display: none; */
+}
 
 .volume:hover {
-    background-color: greenyellow;
-    
+    background-color: greenyellow;  
 }
 
 .volume-scuro {
-    background-color: #5a5a5a;
-    
+    background-color: #5a5a5a;   
     margin-right: 5px;
-        border: none;
-        height: 4px;
-        width: 180px; 
+    border: none;
+    height: 4px;
+    width: 180px; 
 }
 
 
 .volume2 {
     background-color: #c1c1c1;
-    border: none;
-   
+    border: none;   
     margin-left: 5px;
-    height: 4px;
-   
+    height: 4px; 
     width: 20px;
 }
 
@@ -380,18 +351,16 @@ a:hover {
 }
 
 .volume-scuro2 {
-    background-color: #5a5a5a;
-    
+    background-color: #5a5a5a;   
     margin-right: 5px;
-        border: none;
-        height: 4px;
-        width: 80px; 
+    border: none;
+    height: 4px;
+    width: 80px; 
 }
 
 
 .margin {
     margin-top: 10px;
-   
 }
 
 .color {
